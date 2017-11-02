@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311213991EEFCC0B0042D605 /* JsonHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 311213881EEFCC0B0042D605 /* JsonHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3112139A1EEFCC0B0042D605 /* JsonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 311213891EEFCC0B0042D605 /* JsonHelper.m */; };
+		3112139B1EEFCC0B0042D605 /* XMLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3112138B1EEFCC0B0042D605 /* XMLHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3112139C1EEFCC0B0042D605 /* XMLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3112138C1EEFCC0B0042D605 /* XMLHelper.m */; };
+		311213AF1EEFCE200042D605 /* ToolHelperClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3112139E1EEFCE200042D605 /* ToolHelperClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311213B01EEFCE200042D605 /* ToolHelperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3112139F1EEFCE200042D605 /* ToolHelperClass.m */; };
+		311213B11EEFCE200042D605 /* DateTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 311213A11EEFCE200042D605 /* DateTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311213B21EEFCE200042D605 /* DateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 311213A21EEFCE200042D605 /* DateTool.m */; };
+		311213B31EEFCE200042D605 /* KeyChainSaveTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 311213A41EEFCE200042D605 /* KeyChainSaveTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311213B41EEFCE200042D605 /* KeyChainSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 311213A51EEFCE200042D605 /* KeyChainSaveTool.m */; };
+		311213B51EEFCE200042D605 /* BestChangeViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 311213A71EEFCE200042D605 /* BestChangeViewHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311213B61EEFCE200042D605 /* BestChangeViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 311213A81EEFCE200042D605 /* BestChangeViewHelper.m */; };
+		311213B71EEFCE200042D605 /* UnitTransformTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 311213AA1EEFCE200042D605 /* UnitTransformTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311213B81EEFCE200042D605 /* UnitTransformTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 311213AB1EEFCE200042D605 /* UnitTransformTool.m */; };
+		311213B91EEFCE200042D605 /* DataSaveHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 311213AD1EEFCE200042D605 /* DataSaveHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311213BA1EEFCE200042D605 /* DataSaveHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 311213AE1EEFCE200042D605 /* DataSaveHelper.m */; };
+		311213C01EEFCEE70042D605 /* DESEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 311213BC1EEFCEE70042D605 /* DESEncrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311213C11EEFCEE70042D605 /* DESEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 311213BD1EEFCEE70042D605 /* DESEncrypt.m */; };
+		311213C21EEFCEE70042D605 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 311213BE1EEFCEE70042D605 /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311213C31EEFCEE70042D605 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 311213BF1EEFCEE70042D605 /* GTMBase64.m */; };
+		311213C81EEFD6A00042D605 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 311213C61EEFD6A00042D605 /* XMLDictionary.h */; };
+		311213C91EEFD6A00042D605 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 311213C71EEFD6A00042D605 /* XMLDictionary.m */; };
+		312D41911ECD3A0E0039AE4A /* HelperTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 312D41901ECD397E0039AE4A /* HelperTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		310B9C701ECA98D100E5B788 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		310B9C721ECA98D100E5B788 /* libFRW_HelperTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFRW_HelperTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		311213881EEFCC0B0042D605 /* JsonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonHelper.h; sourceTree = "<group>"; };
+		311213891EEFCC0B0042D605 /* JsonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonHelper.m; sourceTree = "<group>"; };
+		3112138B1EEFCC0B0042D605 /* XMLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLHelper.h; sourceTree = "<group>"; };
+		3112138C1EEFCC0B0042D605 /* XMLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLHelper.m; sourceTree = "<group>"; };
+		3112139E1EEFCE200042D605 /* ToolHelperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolHelperClass.h; sourceTree = "<group>"; };
+		3112139F1EEFCE200042D605 /* ToolHelperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolHelperClass.m; sourceTree = "<group>"; };
+		311213A11EEFCE200042D605 /* DateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTool.h; sourceTree = "<group>"; };
+		311213A21EEFCE200042D605 /* DateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTool.m; sourceTree = "<group>"; };
+		311213A41EEFCE200042D605 /* KeyChainSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainSaveTool.h; sourceTree = "<group>"; };
+		311213A51EEFCE200042D605 /* KeyChainSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainSaveTool.m; sourceTree = "<group>"; };
+		311213A71EEFCE200042D605 /* BestChangeViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestChangeViewHelper.h; sourceTree = "<group>"; };
+		311213A81EEFCE200042D605 /* BestChangeViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestChangeViewHelper.m; sourceTree = "<group>"; };
+		311213AA1EEFCE200042D605 /* UnitTransformTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitTransformTool.h; sourceTree = "<group>"; };
+		311213AB1EEFCE200042D605 /* UnitTransformTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTransformTool.m; sourceTree = "<group>"; };
+		311213AD1EEFCE200042D605 /* DataSaveHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSaveHelper.h; sourceTree = "<group>"; };
+		311213AE1EEFCE200042D605 /* DataSaveHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSaveHelper.m; sourceTree = "<group>"; };
+		311213BC1EEFCEE70042D605 /* DESEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESEncrypt.h; sourceTree = "<group>"; };
+		311213BD1EEFCEE70042D605 /* DESEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESEncrypt.m; sourceTree = "<group>"; };
+		311213BE1EEFCEE70042D605 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		311213BF1EEFCEE70042D605 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		311213C61EEFD6A00042D605 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		311213C71EEFD6A00042D605 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		312D41901ECD397E0039AE4A /* HelperTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelperTool.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		310B9C6F1ECA98D100E5B788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310B9C691ECA98D100E5B788 = {
+			isa = PBXGroup;
+			children = (
+				312D41901ECD397E0039AE4A /* HelperTool.h */,
+				311213BB1EEFCE8A0042D605 /* 3DES加密 */,
+				3112139D1EEFCE200042D605 /* Category(扩展方法) */,
+				311213A01EEFCE200042D605 /* Date(时间工具) */,
+				311213A31EEFCE200042D605 /* KeyChain(数据加密存储) */,
+				311213A61EEFCE200042D605 /* PushView(页面动态跳转) */,
+				311213A91EEFCE200042D605 /* PX-PT(单位换算) */,
+				311213AC1EEFCE200042D605 /* SaveAndClearData(存储.清除数据) */,
+				311213871EEFCC0B0042D605 /* Json数据解析 */,
+				3112138A1EEFCC0B0042D605 /* XML数据解析 */,
+				310B9C731ECA98D100E5B788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		310B9C731ECA98D100E5B788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				310B9C721ECA98D100E5B788 /* libFRW_HelperTool.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		311213871EEFCC0B0042D605 /* Json数据解析 */ = {
+			isa = PBXGroup;
+			children = (
+				311213881EEFCC0B0042D605 /* JsonHelper.h */,
+				311213891EEFCC0B0042D605 /* JsonHelper.m */,
+			);
+			path = "Json数据解析";
+			sourceTree = "<group>";
+		};
+		3112138A1EEFCC0B0042D605 /* XML数据解析 */ = {
+			isa = PBXGroup;
+			children = (
+				311213C61EEFD6A00042D605 /* XMLDictionary.h */,
+				311213C71EEFD6A00042D605 /* XMLDictionary.m */,
+				3112138B1EEFCC0B0042D605 /* XMLHelper.h */,
+				3112138C1EEFCC0B0042D605 /* XMLHelper.m */,
+			);
+			path = "XML数据解析";
+			sourceTree = "<group>";
+		};
+		3112139D1EEFCE200042D605 /* Category(扩展方法) */ = {
+			isa = PBXGroup;
+			children = (
+				3112139E1EEFCE200042D605 /* ToolHelperClass.h */,
+				3112139F1EEFCE200042D605 /* ToolHelperClass.m */,
+			);
+			path = "Category(扩展方法)";
+			sourceTree = "<group>";
+		};
+		311213A01EEFCE200042D605 /* Date(时间工具) */ = {
+			isa = PBXGroup;
+			children = (
+				311213A11EEFCE200042D605 /* DateTool.h */,
+				311213A21EEFCE200042D605 /* DateTool.m */,
+			);
+			path = "Date(时间工具)";
+			sourceTree = "<group>";
+		};
+		311213A31EEFCE200042D605 /* KeyChain(数据加密存储) */ = {
+			isa = PBXGroup;
+			children = (
+				311213A41EEFCE200042D605 /* KeyChainSaveTool.h */,
+				311213A51EEFCE200042D605 /* KeyChainSaveTool.m */,
+			);
+			path = "KeyChain(数据加密存储)";
+			sourceTree = "<group>";
+		};
+		311213A61EEFCE200042D605 /* PushView(页面动态跳转) */ = {
+			isa = PBXGroup;
+			children = (
+				311213A71EEFCE200042D605 /* BestChangeViewHelper.h */,
+				311213A81EEFCE200042D605 /* BestChangeViewHelper.m */,
+			);
+			path = "PushView(页面动态跳转)";
+			sourceTree = "<group>";
+		};
+		311213A91EEFCE200042D605 /* PX-PT(单位换算) */ = {
+			isa = PBXGroup;
+			children = (
+				311213AA1EEFCE200042D605 /* UnitTransformTool.h */,
+				311213AB1EEFCE200042D605 /* UnitTransformTool.m */,
+			);
+			path = "PX-PT(单位换算)";
+			sourceTree = "<group>";
+		};
+		311213AC1EEFCE200042D605 /* SaveAndClearData(存储.清除数据) */ = {
+			isa = PBXGroup;
+			children = (
+				311213AD1EEFCE200042D605 /* DataSaveHelper.h */,
+				311213AE1EEFCE200042D605 /* DataSaveHelper.m */,
+			);
+			path = "SaveAndClearData(存储.清除数据)";
+			sourceTree = "<group>";
+		};
+		311213BB1EEFCE8A0042D605 /* 3DES加密 */ = {
+			isa = PBXGroup;
+			children = (
+				311213BC1EEFCEE70042D605 /* DESEncrypt.h */,
+				311213BD1EEFCEE70042D605 /* DESEncrypt.m */,
+				311213BE1EEFCEE70042D605 /* GTMBase64.h */,
+				311213BF1EEFCEE70042D605 /* GTMBase64.m */,
+			);
+			path = "3DES加密";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		310B9C811ECA9B4F00E5B788 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311213991EEFCC0B0042D605 /* JsonHelper.h in Headers */,
+				311213B51EEFCE200042D605 /* BestChangeViewHelper.h in Headers */,
+				311213B11EEFCE200042D605 /* DateTool.h in Headers */,
+				311213B91EEFCE200042D605 /* DataSaveHelper.h in Headers */,
+				311213B71EEFCE200042D605 /* UnitTransformTool.h in Headers */,
+				311213C01EEFCEE70042D605 /* DESEncrypt.h in Headers */,
+				3112139B1EEFCC0B0042D605 /* XMLHelper.h in Headers */,
+				311213AF1EEFCE200042D605 /* ToolHelperClass.h in Headers */,
+				311213C81EEFD6A00042D605 /* XMLDictionary.h in Headers */,
+				311213C21EEFCEE70042D605 /* GTMBase64.h in Headers */,
+				311213B31EEFCE200042D605 /* KeyChainSaveTool.h in Headers */,
+				312D41911ECD3A0E0039AE4A /* HelperTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		310B9C711ECA98D100E5B788 /* FRW_HelperTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310B9C7B1ECA98D100E5B788 /* Build configuration list for PBXNativeTarget "FRW_HelperTool" */;
+			buildPhases = (
+				310B9C6E1ECA98D100E5B788 /* Sources */,
+				310B9C6F1ECA98D100E5B788 /* Frameworks */,
+				310B9C701ECA98D100E5B788 /* CopyFiles */,
+				310B9C811ECA9B4F00E5B788 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRW_HelperTool;
+			productName = FRW_HelperTool;
+			productReference = 310B9C721ECA98D100E5B788 /* libFRW_HelperTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		310B9C6A1ECA98D100E5B788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "杭州融讯科技有限公司";
+				TargetAttributes = {
+					310B9C711ECA98D100E5B788 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = CE6776R6Y3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 310B9C6D1ECA98D100E5B788 /* Build configuration list for PBXProject "FRW_HelperTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 310B9C691ECA98D100E5B788;
+			productRefGroup = 310B9C731ECA98D100E5B788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				310B9C711ECA98D100E5B788 /* FRW_HelperTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		310B9C6E1ECA98D100E5B788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3112139A1EEFCC0B0042D605 /* JsonHelper.m in Sources */,
+				311213B41EEFCE200042D605 /* KeyChainSaveTool.m in Sources */,
+				311213B61EEFCE200042D605 /* BestChangeViewHelper.m in Sources */,
+				311213C11EEFCEE70042D605 /* DESEncrypt.m in Sources */,
+				311213B81EEFCE200042D605 /* UnitTransformTool.m in Sources */,
+				311213BA1EEFCE200042D605 /* DataSaveHelper.m in Sources */,
+				311213B21EEFCE200042D605 /* DateTool.m in Sources */,
+				311213C91EEFD6A00042D605 /* XMLDictionary.m in Sources */,
+				311213C31EEFCEE70042D605 /* GTMBase64.m in Sources */,
+				3112139C1EEFCC0B0042D605 /* XMLHelper.m in Sources */,
+				311213B01EEFCE200042D605 /* ToolHelperClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		310B9C791ECA98D100E5B788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		310B9C7A1ECA98D100E5B788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		310B9C7C1ECA98D100E5B788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CE6776R6Y3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		310B9C7D1ECA98D100E5B788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CE6776R6Y3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		310B9C6D1ECA98D100E5B788 /* Build configuration list for PBXProject "FRW_HelperTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310B9C791ECA98D100E5B788 /* Debug */,
+				310B9C7A1ECA98D100E5B788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		310B9C7B1ECA98D100E5B788 /* Build configuration list for PBXNativeTarget "FRW_HelperTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310B9C7C1ECA98D100E5B788 /* Debug */,
+				310B9C7D1ECA98D100E5B788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 310B9C6A1ECA98D100E5B788 /* Project object */;
+}
